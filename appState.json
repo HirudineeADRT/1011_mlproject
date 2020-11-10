@@ -1,0 +1,100 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "b285126a-4d42-44b6-8f8a-0442152f3c87": {
+        "id": "b285126a-4d42-44b6-8f8a-0442152f3c87",
+        "parent": null,
+        "name": "1011_MLproject.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "1011_MLproject.js",
+        "cursor": {
+          "lineNumber": 2,
+          "column": 28
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "1011MLproject"
+        },
+        "triggers": [
+          {
+            "resourceName": "ddbHirutable",
+            "config": {
+              "StartingPosition": "LATEST",
+              "BatchSize": "100",
+              "StreamViewType": "NEW_IMAGE"
+            }
+          }
+        ],
+        "lastUpdated": 1604998744705
+      }
+    },
+    "openFiles": [
+      "b285126a-4d42-44b6-8f8a-0442152f3c87"
+    ],
+    "currentFileId": "b285126a-4d42-44b6-8f8a-0442152f3c87",
+    "resources": {
+      "ddbHirutable": {
+        "name": "ddbHirutable",
+        "type": "DynamoDB",
+        "config": {
+          "mode": 0,
+          "table": {
+            "arn": "",
+            "name": "Hirutable",
+            "partitionKey": "id",
+            "partitionKeyType": "S",
+            "hasSortKey": false,
+            "sortKey": "",
+            "sortKeyType": "S",
+            "payPerRequest": true,
+            "mode": 0
+          }
+        }
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.4.5",
+    "projectName": "1011_MLproject",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1604999341847
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "1011_mlproject",
+      "url": "https://github.com/HirudineeADRT/1011_mlproject"
+    }
+  }
+}
